@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Eye State Monitor</string>
+    
+    <!-- EAR значения -->
+    <string name="ear_default">EAR: —</string>
+    
+    <!-- Состояния глаз -->
+    <string name="eye_state_open">👁️ Открыты</string>
+    <string name="eye_state_half_closed">😑 Полузакрыты</string>
+    <string name="eye_state_closed">😴 Закрыты</string>
+    
+    <!-- Статистика закрытий/полузакрытий -->
+    <string name="blink_metrics_default">Средняя длительность: — | Частота: —</string>
+    <string name="blink_metrics">Закрытия: %s | Полузакрытия: %s</string>
+    
+    <!-- Состояния человека -->
+    <string name="human_state_awake">✅ Бодрствует</string>
+    <string name="human_state_normal">Норма</string>
+    <string name="human_state_drowsy">⚠️ СОНЛИВОСТЬ</string>
+    <string name="human_state_asleep">😴 СОН</string>
+    
+    <!-- Статусные сообщения -->
+    <string name="no_face">👤 Лицо не обнаружено</string>
+    
+    <!-- Эмодзи для оверлеев -->
+    <string name="sleeping_emoji">😴 СОН 😴</string>
+    <string name="wake_up_text">ПРОСНИТЕСЬ!</string>
+    <string name="warning_emoji">⚠️</string>
+    
+    <!-- Таймеры -->
+    <string name="drowsy_timer">⏰ До сна: %.1f сек</string>
+    <string name="falling_asleep_timer">💤 Засыпание через: %.1f сек</string>
+    
+    <!-- Легенда -->
+    <string name="legend_title">Состояние глаз:</string>
+    <string name="legend_open">Открыты</string>
+    <string name="legend_half_closed">Полузакрыты</string>
+    <string name="legend_closed">Закрыты</string>
+    
+    <!-- График -->
+    <string name="graph_title">EAR (Eye Aspect Ratio)</string>
+    <string name="graph_waiting">Ожидание данных...</string>
+    <string name="graph_current_ear">Текущий EAR: %.3f</string>
+    
+    <!-- Зоны графика -->
+    <string name="zone_open">ОТКРЫТЫ</string>
+    <string name="zone_half_closed">ПОЛУЗАКРЫТЫ</string>
+    <string name="zone_closed">ЗАКРЫТЫ</string>
+    
+    <!-- Детальное состояние глаз -->
+    <string name="eye_state_detail_open">👁️ Глаза открыты</string>
+    <string name="eye_state_detail_half_closed">😑 Полузакрыты (%.1f сек)</string>
+    <string name="eye_state_detail_closed">😴 Закрыты (%.1f сек)</string>
+    
+    <!-- Уведомления -->
+    <string name="notification_channel_id">eye_state_channel</string>
+    <string name="notification_channel_name">Состояние глаз</string>
+    <string name="notification_drowsy_title">Сонливость обнаружена</string>
+    <string name="notification_drowsy_text">Глаза полузакрыты уже несколько секунд</string>
+    <string name="notification_asleep_title">ВНИМАНИЕ! ЗАСЫПАНИЕ</string>
+    <string name="notification_asleep_text">Глаза закрыты. Пожалуйста, проснитесь!</string>
+    
+    <!-- Кнопки -->
+    <string name="button_toggle_camera">Переключить камеру</string>
+    <string name="button_reset">Сброс</string>
+    
+    <!-- Сообщения об ошибках -->
+    <string name="error_camera_permission">Нет разрешения на использование камеры</string>
+    <string name="error_face_landmarker">Ошибка инициализации детектора лиц</string>
+</resources>
